@@ -1,3 +1,9 @@
+[db_servers]
 controlnode
+
+[web_servers]
 node1
+
+[file_servers]
 node2
+
