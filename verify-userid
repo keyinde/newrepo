@@ -1,0 +1,10 @@
+#!/bin/bash
+
+a=`tail -1 /etc/passwd | awk -F: '{print $1}'`
+
+if [ "$a" == marley ]   
+        then
+        echo $a account exist
+        else
+        echo $a does not exit. Go and create it.
+fi

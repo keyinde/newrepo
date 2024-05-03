@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Define small task
+# This script is written by olivier Dessou
+#Date written: 2024
+
+whoami
+echo
+pwd
+hostname
+echo
+ls -ltr
+echo
